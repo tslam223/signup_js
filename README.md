@@ -1,1 +1,1 @@
-# signup_js
+html login form using javascript to toggle password visibility

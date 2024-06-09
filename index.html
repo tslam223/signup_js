@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/78c6358bdf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form class="pForm">
+      <h2 id="headh" class="head">Sign up</h2>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><i
+        id="eyeSlash" class="fa-solid fa-eye-slash"
+      onclick="togglePassword()"></i
+      > 
+      
+      <!-- <i class="fa-solid fa-eye"></i> -->
+      <br />
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" /><i
+        class="fa-solid fa-eye-slash"
+      ></i
+      ><br />
+      <input type="submit" value="Sign up" class="submit" />
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
